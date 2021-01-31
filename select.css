@@ -1,0 +1,22 @@
+.custom-select-container,
+.custom-select-value, 
+.custom-select-options, 
+.custom-select-option {
+  box-sizing: border-box;
+}
+
+.custom-select-container {
+  display: inline-block;
+  position: relative;
+}
+
+.custom-select-value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  border: 1px solid black;
+  padding: .25rem .5rem;
+  cursor: pointer;
+  user-select: none;
+}
